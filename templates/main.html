@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <title>KAI 중장기 전략 행사</title>
+</head>
+<body>
+    <div class="flex flex-col items-center justify-center">
+        <div class="px-3 my-3">
+            <div class="border border-gray-200 rounded-md items-center justify-center">
+                <img class="w-full" src="static/img/kai_edm_header.png">
+                <div style="background-image: url('./static/img/kai_edm_bg.png');">
+                    <div>
+                        <div class="py-4 px-4">
+                            <img src="static/img/kai_edm_greeting.png">
+                        </div>
+
+                        <div class="mx-5 border border-gray-200 rounded-md px-2">
+                            <div class ="text-2xl font-medium -mb-5 "> 
+                                <span class="text-gray-800" >중장기 전략 인사말</span>
+                            </div>
+                            <div class="-pt-10 mb-5 text-gray-800">
+                                <br> 불어오는 바람에 마치 얼음 송곳이라도 달린 것처럼 차갑습니다.
+                                <br> 이런 날은 하늘보다 땅을 보게되고, 주위를 둘러보기보다 목표한 것에만 집중하게 됩니다.
+                                <br> 이렇게 찬 바람이 불어와 주위를 다 얼려 버려버릴 것만 같은 날에는 힘들지만, 주변을 둘러보세요.
+                                <br> 여러분이 주위를 둘러보며, 함께 기운내는 새해를 맞이하기를 소망합니다. 
+                                <br>
+                                <br> 감사합니다.
+                                <br>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-5">
+                        <div class="pb-5 pt-5 px-3">
+                            <img src="static/img/kai_edm_program.png" alt="">
+                        </div>
+                        <div class="mx-5 rounded-md px-2 py-1">
+                            <div class="-pt-5 mb-2">
+                               <img src="static/img/kai_edm_program-agenda.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex justify-center items-center">
+                        <button onclick="moveStream();" class="flex justify-center border border-gray-400 rounded-xl py-3 px-6 bg-blue-900 text-white items-center shadow-2xl hover:bg-blue-500">
+                            <span class="font-bold text-3xl mr-3"> 입장하기</span> 
+                            <span class="font-light text-xl"> entrance</span>
+                        </button>
+                    </div>
+                    
+                    <div class="mt-10 flex flex-col mb-8">
+                        <div class="py-5 px-3">
+                            <img src="static/img/kai_edm_information.png" alt="">
+                            <div class="pl-3 mt-2">
+                                <span class="text-gray-500 text-sm">* 원활한 운영을 위하여 입장은 행사 시작 30분 전에 가능합니다.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer class="w-full h-auto flex flex-col items-center">
+                        <img src='static/img/kai_edm_footer.png'>
+                    </footer>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+<script type="text/javaScript">
+    function moveStream(){
+        location.href ="./stream";
+    }
+</script>
+</html>
